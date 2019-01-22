@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/home/luis/Escritorio/solucian/.metadata/.plugins/org.eclipse.core.resources/.projects/lab4/com.python.pydev.analysis/v2_indexcache
+servMain|1548175471462405000|/home/luis/Escritorio/solucian/lab4/servMain.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+3=ThreadServer
+5=MyTCPHandler.handle
+6=MiTcpHandler
+2=servMain
+1=/home/luis/Escritorio/solucian/lab4/servMain.py
+4=MiTcpHandler.handle
+7=MyTCPHandler
+-- END DICTIONARY
+-- START TREE 1
+4
+mai|1|main!1^58#5*18@
+mit|1|MiTcpHandler!1^8#7*17@
+myt|1|MyTCPHandler!1^28#7*17@
+thr|1|ThreadServer!1^55#7*17@
+-- END TREE
+-- START TREE 2
+3
+all|1|allow_reuse_address!3&1^56#5*19@
+dat|2|data!4&1^17#17*19@data!5&1^43#13*19@
+han|2|handle!6&1^11#9*18@handle!7&1^37#9*18@
+-- END TREE

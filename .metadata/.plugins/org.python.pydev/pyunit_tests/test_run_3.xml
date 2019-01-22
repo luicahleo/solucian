@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 3" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="/home/luis/Escritorio/python/lab2/servMain.py" status="error" test="servMain" time="0">
+        <stdout/>
+        <stderr>
+            <![CDATA[Traceback (most recent call last):
+  File "/home/luis/.p2/pool/plugins/org.python.pydev.core_7.0.3.201811082356/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/home/luis/Escritorio/python/lab2/servMain.py", line 1, in <module>
+    import socketserver, socket
+ImportError: No module named socketserver
+ERROR: Module: servMain could not be imported (file: /home/luis/Escritorio/python/lab2/servMain.py).
+]]>
+        </stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="lab2 lab2"/>
+]]>
+        </launch_memento>
+    </launch>
+</pydev-testsuite>
