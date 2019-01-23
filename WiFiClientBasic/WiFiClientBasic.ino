@@ -10,6 +10,10 @@
 #ifndef STASSID
 #define STASSID "TP-LINK_51B440"
 #define STAPSK  "telecomunicaciones"
+//#define STASSID "libre"
+//#define STAPSK  "10051982"
+//#define STASSID "libre_plus"
+//#define STAPSK  "10051982"
 #endif
 
 const char* ssid     = STASSID;
@@ -17,6 +21,10 @@ const char* password = STAPSK;
 
 const char* host = "192.168.0.105";
 const uint16_t port = 8266;
+//const char* host = "10.3.141.1";
+//const uint16_t port = 8267;
+
+int contador = 0;
 
 ESP8266WiFiMulti WiFiMulti;
 
@@ -56,8 +64,16 @@ void loop() {
 
   if (!client.connect(host, port)) {
     Serial.println("connection failed");
-    Serial.println("wait 1/10 sec...");
-    delay(100);
+    Serial.println("wait 1 sec...");
+    delay(1000);
+
+    contador++;
+
+    if (contador == 5){
+      Serial.print("no hay servidor, mejor me duermo para no gastar energia.");
+      ESP.deepSleep(0);
+    }
+    
     return;
   }
 
