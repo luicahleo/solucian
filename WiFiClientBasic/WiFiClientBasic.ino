@@ -29,7 +29,7 @@ int contador = 0;
 ESP8266WiFiMulti WiFiMulti;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115000);
 
   // We start by connecting to a WiFi network
   WiFi.mode(WIFI_STA);
@@ -64,12 +64,12 @@ void loop() {
 
   if (!client.connect(host, port)) {
     Serial.println("connection failed");
-    Serial.println("wait 1 sec...");
-    delay(1000);
+    Serial.println((String)"wait: "+ contador + " seconds");
+    delay(500);
 
     contador++;
 
-    if (contador == 5){
+    if (contador == 2){
       Serial.print("no hay servidor, mejor me duermo para no gastar energia.");
       ESP.deepSleep(0);
     }
@@ -82,16 +82,18 @@ void loop() {
 
   //read back one line from server
   Serial.println("receiving from remote server");
+  Serial.println("............................");
+  
   String line = client.readStringUntil('\r');
   Serial.println(line);
 
   Serial.println("closing connection");
   client.stop();
 
-  Serial.println("wait 1/10 sec...");
-  delay(100);
+  //Serial.println("wait 1/10 sec...");
+  //delay(100);
 
-  Serial.println("entrando a deepSleep.... ve voy a dormir");
+  Serial.println("entrando a deepSleep.... me voy a dormir");
 
 
 
