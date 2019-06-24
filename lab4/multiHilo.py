@@ -6,6 +6,7 @@ TIMEOUT = 10
 HOST = '192.168.0.105'
 PORT = 8266
 
+
 class RequestHandler(SocketServer.BaseRequestHandler):
     def handle(self):
         try:

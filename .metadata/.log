@@ -7946,3 +7946,6 @@ org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 9; Final de archivo 
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.equinox.security 1 0 2019-06-24 10:05:15.752
+!MESSAGE New secure storage master password was generated (Linux libsecret integration module). 
