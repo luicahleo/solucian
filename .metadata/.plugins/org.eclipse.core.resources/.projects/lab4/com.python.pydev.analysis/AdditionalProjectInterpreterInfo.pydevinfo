@@ -1,19 +1,25 @@
 -- VERSION_5
 -- START DISKCACHE_2
+<<<<<<< HEAD
 /home/dit/solucian/.metadata/.plugins/org.eclipse.core.resources/.projects/lab4/com.python.pydev.analysis/v2_indexcache
 multiHilo|1561363696691622000|/home/dit/solucian/lab4/multiHilo.py
 servMain|1561070025452906000|/home/dit/solucian/lab4/servMain.py
+=======
+C:\Users\luisr\solucian\.metadata\.plugins\org.eclipse.core.resources\.projects\lab4\com.python.pydev.analysis\v2_indexcache
+multiHilo|1561904390881172000|C:\Users\luisr\solucian\lab4\multiHilo.py
+servMain|1561904390881172000|C:\Users\luisr\solucian\lab4\servMain.py
+>>>>>>> 6ad6842d101183c642fa4316046d14e805717ab6
 -- END DISKCACHE
 -- START DICTIONARY
 11
 5=ThreadServer
+1=C:\Users\luisr\solucian\lab4\multiHilo.py
 7=MyTCPHandler.handle
-1=/home/dit/solucian/lab4/multiHilo.py
 2=multiHilo
 9=RequestHandler
+3=C:\Users\luisr\solucian\lab4\servMain.py
 10=MiTcpHandler
 4=servMain
-3=/home/dit/solucian/lab4/servMain.py
 6=MiTcpHandler.handle
 8=ThreadedTCPServer
 11=MyTCPHandler

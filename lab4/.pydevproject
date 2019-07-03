@@ -9,6 +9,7 @@
                     
     
     </pydev_pathproperty>
+<<<<<<< HEAD
             
     
     <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
@@ -17,6 +18,10 @@
     <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">python2</pydev_property>
             
     
+=======
+    <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
+    <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">python</pydev_property>
+>>>>>>> 6ad6842d101183c642fa4316046d14e805717ab6
     <pydev_property name="org.python.pydev.PYTHON_ADDITIONAL_GRAMMAR_VALIDATION">3.7</pydev_property>
         
 
