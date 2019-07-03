@@ -78,7 +78,7 @@ void loop() {
   }
 
   // This will send the request to the server
-  client.println("terraza 30");
+  client.println("terraza 7");
 
   //read back one line from server
   Serial.println("receiving from remote server");
