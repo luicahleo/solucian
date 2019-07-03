@@ -10,7 +10,12 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
   </head>
   <body>
-		<div id="cabecera">
+		
+<script src="/bloc/usuarios/js/cabecera.js"></script>
+	
+	
+	
+	<div id="cabecera">
 		<div id="logotipo">
 				<a href="/bloc/menu.jsp">
 				<img src="/bloc/imagenes/blocnotasfast-p.png" alt="Bloc de Notas FAST" />
@@ -39,7 +44,7 @@
 
 
 		<div id="pie">
-		<p>Luis Rolando Cahuana Leon - SOLUCIAN - derivado de - FAST 01/02/2019</p>
+		<p>Cahuana Leon Luis Rolando - SOLUCIAN - copyright (FAST)</p>
 	</div>
 
 
